@@ -58,7 +58,7 @@ function handleSubmit(event) {
 					{ text: "Enable S2I Visa Mandate CardOnFile",highlight:false},
 					{ text: "Enable CIT/MIT Indicators for Mastercard",highlight:false},
 					{ text: "RSC OR LCS level changes", highlight: true },
-					{ text: "CS: Add “-B I” on dcf_dcfs table in existing script", highlight: false },
+					{ text: "LCS: Add “-B I” on dcf_dcfs table in existing script", highlight: false },
 					{ text: "DCF changes", highlight: true },
 					{ text: "In record 6220 Point-of-Service (POS) Entry Mode DE22.1 = 10", highlight: false },
 					{ text: "In record 6220 POS Data Code SF7 - Card Data Input ModeDE22SE7=7", highlight: false },
