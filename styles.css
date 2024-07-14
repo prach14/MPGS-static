@@ -1,46 +1,74 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    margin: 20px;
+    background-color: #f0f8ff;
+    color: #333;
 }
 
-header {
-    background-color: #333;
-    color: white;
+h1 {
+    color: #333;
     text-align: center;
-    padding: 10px 0;
+    margin-bottom: 20px;
 }
 
-main {
-    max-width: 600px;
-    margin: 20px auto;
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td {
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+form {
+    margin: 0;
+}
+
+select {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 1em;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: #fff;
     border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-bottom: 20px;
     cursor: pointer;
-    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
 
-p#message {
-    font-size: 18px;
+.info {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e9ecef;
+    display: none;
+    text-align: left;
+}
+
+.info p {
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info p:last-child {
+    border-bottom: none;
+}
+
+.info .highlight {
+    background-color: #ffffcc;
     font-weight: bold;
-    text-align: center;
 }
